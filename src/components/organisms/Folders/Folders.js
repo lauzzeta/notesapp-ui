@@ -13,7 +13,7 @@ export default function Folders({ folders }) {
           <Slide
             in
             direction="left"
-            {...(true ? { timeout: i + 500 } : {})}
+            {...(true ? { timeout: 500 } : {})}
             key={i}
           >
             <Grid item xs={6} sm={4} md={3} xl={2}>

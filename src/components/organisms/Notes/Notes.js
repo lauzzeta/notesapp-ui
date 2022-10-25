@@ -10,7 +10,7 @@ export default function Notes({ notes }) {
       <Grid container spacing={2}>
         {notes.length > 0 ? (
           notes.map((note, i) => (
-            <Zoom in {...(true ? { timeout: 500 } : {})} key={i}>
+            <Zoom in {...(true ? { timeout: 800 } : {})} key={i}>
               <Grid item xs={6} sm={6} md={3} xl={3}>
                 <CustomPaper
                   onClick={() => navigate(`/notes/${note.id}`)}
