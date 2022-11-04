@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {Box, Grid, Link, Typography, Container, TextField } from "@mui/material";
+import {Box, Grid, Typography, Container, TextField } from "@mui/material";
 import { ColorButton } from '../../styles';
 import {useNavigate} from 'react-router-dom'
 import { signIn } from '../../api';
@@ -86,9 +86,9 @@ export default function SignIn() {
                 <Typography color='primary.dark'>
                   ¿Don't have an account?
                 </Typography>
-                <Link onClick={()=>{navigate('/sign-up')}} color={'primary.main'} sx={{cursor:'pointer'}}>
-                  Sign up
-                </Link>
+                <Typography onClick={()=>{navigate('/sign-up')}} color={'primary.main'} sx={{cursor:'pointer'}}>
+                    Sign up
+                </Typography>
               </Grid>
             </Grid>
           </Box>
