@@ -1,6 +1,14 @@
-import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  Box,
+  Container,
+  IconButton,
+  Toolbar,
+  Typography,
+} from "@mui/material";
 import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Navbar() {
   return (
@@ -18,6 +26,9 @@ export default function Navbar() {
                   <HomeIcon />
                 </Link>
               </Typography>
+              <IconButton component="a" href={"https://github.com/lauzzeta"}>
+                <GitHubIcon />
+              </IconButton>
             </Toolbar>
           </Container>
         </AppBar>
