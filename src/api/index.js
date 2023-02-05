@@ -24,4 +24,4 @@ export const deleteNote = async (id) => del(`/notes/${id}`);
 
 export const deleteFolder = async (id) => del(`/folder/${id}`);
 
-export const host = "notesapp-api-production.up.railway.app";
+export const host = "https://notesapp-api-production.up.railway.app";
