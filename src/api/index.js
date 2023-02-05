@@ -24,4 +24,4 @@ export const deleteNote = async (id) => del(`/notes/${id}`);
 
 export const deleteFolder = async (id) => del(`/folder/${id}`);
 
-export const host = "https://notesapp-lz.herokuapp.com";
+export const host = "notesapp-api-production.up.railway.app";

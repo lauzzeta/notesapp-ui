@@ -1,4 +1,4 @@
-const API_URL = "https://notesapp-lz.herokuapp.com";
+const API_URL = "notesapp-api-production.up.railway.app";
 
 export const post = async (route = "", body = {}) => {
   try {
